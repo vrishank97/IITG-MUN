@@ -1814,14 +1814,16 @@ time {
 .reset-padding {
     padding: 0}
 .logo {
-    background-image: url("../img/sprites/logos.svg");
-    background-repeat: no-repeat}
+    background-image: url("../img/sprites/logos.png");}
 .logo.logo-dark {
-    background-position: 0 -1px}
+    background-position: center;
+    background-size: 226px 68px;}
 .logo.logo-gray {
-    background-position: 0 -63px}
+    background-position: center;
+    background-size: 226px 68px;}
 .logo.logo-light {
-    background-position: 0 -127px}
+    background-position: center;
+    background-size: 226px 68px;}
 .icon {
     display: inline-block;
     width: 16px;
@@ -1886,16 +1888,16 @@ time {
 .logo-header .logo {
     display: inline-block;
     float: left;
-    width: 185px;
-    height: 60px;
+    width: 226px;
+    height: 65px;
     margin-right: 20px;
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     vertical-align: middle}
 .logo-navbar {
-    width: 185px;
-    height: 60px;
+    width: 226px;
+    height: 65px;
     margin: 8px 20px 0 -10px;
     -webkit-transform: scale(0.6);
     -ms-transform: scale(0.6);
@@ -2356,8 +2358,8 @@ nav li a.current,nav li a:hover {
     line-height: 1.3;
     margin-top: 10px}
 .logo-footer {
-    width: 185px;
-    height: 60px;
+    width: 226px;
+    height: 68px;
     margin: -13px -13px 0;
     -webkit-transform: scale(0.65);
     -ms-transform: scale(0.65);
