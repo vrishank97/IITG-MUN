@@ -987,6 +987,7 @@ tbody.collapse.in {
     color: inherit;
     background-color: #eee}
 .jumbotron h1,.jumbotron .h1 {
+    font-weight: 100
     color: inherit}
 .jumbotron p {
     margin-bottom: 15px;
@@ -1814,16 +1815,19 @@ time {
 .reset-padding {
     padding: 0}
 .logo {
-    background-image: url("../img/sprites/logos.png");}
+        }
 .logo.logo-dark {
+    background-image: url("../img/sprites/IITG mun logo-01 black.svg");
     background-position: center;
-    background-size: 226px 68px;}
+    background-size: 226px 150px;}
 .logo.logo-gray {
+    background-image: url("../img/sprites/IITG mun logo-01 black.svg");
     background-position: center;
-    background-size: 226px 68px;}
+    background-size: 226px 150px;}
 .logo.logo-light {
+    background-image: url("../img/sprites/IITG mun logo white-01.svg");
     background-position: center;
-    background-size: 226px 68px;}
+    background-size: 226px 150px;}
 .icon {
     display: inline-block;
     width: 16px;
@@ -1928,8 +1932,8 @@ nav li {
     padding: 0 8px;
     vertical-align: middle}
 nav li a {
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-transform: uppercase;
@@ -1991,8 +1995,10 @@ nav li a.current,nav li a:hover {
     transform: translateY(-60%)}
 .top-section-hero .jumbotron p {
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 15px}
+.top-section-hero .jumbotron h1 {
+    font-weight: 1000;}
 .top-section-hero .jumbotron .btn {
     margin: 0 3px}
 .typeout-fallback {
@@ -2359,7 +2365,7 @@ nav li a.current,nav li a:hover {
     margin-top: 10px}
 .logo-footer {
     width: 226px;
-    height: 68px;
+    height: 100px;
     margin: -13px -13px 0;
     -webkit-transform: scale(0.65);
     -ms-transform: scale(0.65);
@@ -3541,7 +3547,7 @@ input[type="date"].input-lg,.input-group-lg input[type="date"],input[type="time"
     padding-right: 60px}
 .jumbotron h1,.jumbotron .h1 {
     font-size: 72px
-    font-weight: 500}
+    font-weight: 100}
 .jumbotron {
     padding-bottom: 0}
 }
